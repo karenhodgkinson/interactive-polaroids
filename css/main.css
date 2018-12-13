@@ -7,12 +7,13 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
+  height: 152px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
   transition: all 200ms ease-out;
-  display: inline-block;
+  text-align: center;
 }
 
 .polaroid > img {
@@ -36,22 +37,22 @@ body {
 }
 
 body > :first-child {
-  top: 5.5em;
+  top: 6.5em;
   left: 12em;
-  transform: rotate(-15deg);
+  transform: rotate(-10deg);
   z-index: 10;
 }
 
 body > :nth-child(2) {
-  top: 8.5em;
+  top: 9.5em;
   left: 18em;
   transform: rotate(5deg);
   z-index: 30;
 }
 
-body > :last-child {
-  top: 5em;
+body > :nth-child(3) {
+  top: 6em;
   left: 24em;
-  transform: rotate(33deg);
+  transform: rotate(35deg);
   z-index: 20;
 }
